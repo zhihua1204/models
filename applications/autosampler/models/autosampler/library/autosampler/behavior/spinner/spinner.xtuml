@@ -7,6 +7,18 @@ INSERT INTO O_OBJ
 	'spinner',
 	'',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("32e17652-57dd-421c-bc8a-9be3e827fceb",
+	"e2427d9e-4149-40c3-a883-e2e4ed758e8e",
+	'arrived',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	0,
+	'select any spinner from instances of spinner;
+//generate xxx() to spinner;',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR
 	VALUES ("d5a5cac7-3ce7-4754-824a-3504044949f2",
 	"e2427d9e-4149-40c3-a883-e2e4ed758e8e");
@@ -59,6 +71,24 @@ INSERT INTO O_ATTR
 	'ready',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("ab6805b4-aa45-4c8f-8777-a1ce42e542d1",
+	"e2427d9e-4149-40c3-a883-e2e4ed758e8e");
+INSERT INTO O_BATTR
+	VALUES ("ab6805b4-aa45-4c8f-8777-a1ce42e542d1",
+	"e2427d9e-4149-40c3-a883-e2e4ed758e8e");
+INSERT INTO O_ATTR
+	VALUES ("ab6805b4-aa45-4c8f-8777-a1ce42e542d1",
+	"e2427d9e-4149-40c3-a883-e2e4ed758e8e",
+	"2fda3a9d-ef7e-4a82-8ad1-457bc8f09c13",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000006",
 	'',
 	'');
 INSERT INTO O_ID

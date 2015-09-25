@@ -7,6 +7,30 @@ INSERT INTO O_OBJ
 	'probe',
 	'',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("ac88fd93-0f69-44e5-8eee-f6a18a371289",
+	"06c692c7-8f03-48b0-8050-3f5410ede120",
+	'top',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	0,
+	'select any probe from instances of probe;
+//generate xxx() to probe;',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("657f995c-56f7-47e5-8c4d-fb3d87f8d848",
+	"06c692c7-8f03-48b0-8050-3f5410ede120",
+	'bottom',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	0,
+	'select any probe from instances of probe;
+// generate xxx() to probe;',
+	1,
+	'',
+	"ac88fd93-0f69-44e5-8eee-f6a18a371289");
 INSERT INTO O_NBATTR
 	VALUES ("3dfd2bbc-42cd-48f2-9623-fecf62724320",
 	"06c692c7-8f03-48b0-8050-3f5410ede120");
@@ -23,6 +47,24 @@ INSERT INTO O_ATTR
 	'state',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("f58a2b65-d702-46df-868e-b65c2f7b4500",
+	"06c692c7-8f03-48b0-8050-3f5410ede120");
+INSERT INTO O_BATTR
+	VALUES ("f58a2b65-d702-46df-868e-b65c2f7b4500",
+	"06c692c7-8f03-48b0-8050-3f5410ede120");
+INSERT INTO O_ATTR
+	VALUES ("f58a2b65-d702-46df-868e-b65c2f7b4500",
+	"06c692c7-8f03-48b0-8050-3f5410ede120",
+	"3dfd2bbc-42cd-48f2-9623-fecf62724320",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000006",
 	'',
 	'');
 INSERT INTO O_ID
